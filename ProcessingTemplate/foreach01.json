@@ -1,0 +1,15 @@
+{
+  "owner": "reynaldogiangan@gmail.com",
+  "priority": "0",
+  "processingType": "WORKFLOW",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "workflowType": "FOR_EACH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "forEachCollection": "1..50",
+    "forEachCollectionType": "TEXT",
+    "onUnresolvedVariables": "FAIL"
+  }
+}
